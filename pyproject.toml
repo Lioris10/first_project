@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "first-project"
+version = "1.0.0"
+description = "Calling main, internal functions, external functions"
+authors = ["Lioris10 <lior@crosstech.co.il>"]
+license = "Apache 2.0"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
